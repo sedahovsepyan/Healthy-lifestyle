@@ -1,0 +1,131 @@
+body{
+    background-image: linear-gradient(to bottom, dodgerblue 10%,white  100%  );
+
+}
+.top{
+   padding-top: 10px;
+}
+#logo {
+    background: url("images/logo.jpg")no-repeat;
+    height: 116px;
+    width: 202px;
+    background-size: 200px;
+    border-radius: 50px;
+    margin: auto;
+
+}
+.text {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.text>li>a:hover{
+    background-color:dodgerblue!important;
+    border-bottom: #f5dc08 3px solid !important;
+    max-height: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #f5dc08 !important;
+}
+.color{
+    margin-top: 10px ;
+background-image: linear-gradient(to bottom,#0c0cf1 0%,#0c0cf1 100%) !important;
+}
+.img3{
+    background: url("images/first1.jpg") no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+.img2{
+    background: url("images/second.jpg") no-repeat;
+    height: 600px;
+    background-size: cover ;
+
+}
+.img1 {
+    background: url("images/tlo2.jpg") no-repeat;
+    height: 600px;
+    background-size:cover;
+}
+.forborder {
+    border: #f5dc08   2px solid;
+    margin-bottom: 20px;
+}
+
+.head{
+
+    color:#0c0cf1;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: dodgerblue 5px 5px 5px ;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 25px;
+}
+.textp{
+    text-align: justify;
+    padding-top: 20px;
+}
+.allli{
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.allli:hover{
+    color:red;
+}
+.image{
+    background: url("images/walk.jpg") no-repeat;
+    height: 150px;
+    background-size:contain;
+    margin-top: 40px;
+}
+.image1{
+    background: url("images/swimming.jpg") no-repeat;
+    height: 150px;
+    background-size: contain;
+}
+.border{
+    border: double 3px #0c0cf1 ;
+    padding:15px;
+}
+.image2{
+    background: url("images/exercise.jpg") no-repeat;
+    height:150px;
+    background-size: contain;
+}
+[class*='texthide']{
+    display: none;
+}
+.readmore{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 414px) {
+    [class*='img']{
+        height: 300px;
+    }
+}
+.panel-body{
+    background-color:#0c0cf1;
+    border-radius: 5px;
+    color: white;
+}
+.footer{
+    margin-left: auto !important;
+    width: 300px !important;
+}
+.logo2{
+    background: url("images/logo2.jpg") no-repeat;
+    height: 70px;;
+}
+
+.grid-item > div{
+    display: none;
+}
+.koko > div {
+    display: block;
+}
+.well{
+    min-height: 100px !important;
+}
